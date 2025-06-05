@@ -8,7 +8,7 @@ from PySide6.QtCore import Qt, Signal
 from PySide6.QtGui import QFont
 
 # ------------------------- Load Inventory -------------------------
-def load_inventory(filepath="Grocery Inventory.json"):
+def load_inventory(filepath="C:/Users/srush/Documents/Project_Inventory_Management_System/Inventory_Management_System/Project_Main/Data/Grocery Inventory.json"):
     # Load inventory data from a JSON file
     with open(filepath, "r") as file:
         return json.load(file)
@@ -79,7 +79,7 @@ class BillWindow(QWidget):
             if ref_no in self.inventory:
                 self.inventory[ref_no]["Stock_Quantity"] = str(int(self.inventory[ref_no]["Stock_Quantity"]) - int(i['Quantity']))
 
-        with open("Grocery Inventory.json", "w") as file:
+        with open("C:/Users/srush/Documents/Project_Inventory_Management_System/Inventory_Management_System/Project_Main/Data/Grocery Inventory.json", "w") as file:
             json.dump(self.inventory, file, indent=4)
 
         self.close()
