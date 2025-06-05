@@ -65,7 +65,7 @@ class BillWindow(QWidget):
         text += f"{'Total Bill :':<70}{bill_total}"
         bill.setPlainText(text)
 
-        update_button = QPushButton("Print Bill and Update Inventory")
+        update_button = QPushButton("Bill Paid and Update Inventory")
         update_button.clicked.connect(self.update_inventory)
 
         layout.addRow(title)

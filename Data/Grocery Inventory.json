@@ -1723,7 +1723,7 @@
         "Supplier_Name": "Jatri",
         "Category": "Dairy",
         "Unit_Price": "0.90",
-        "Stock_Quantity": "13",
+        "Stock_Quantity": "11",
         "Expiration_Date": "9/18/2026"
     },
     "1158": {
@@ -3835,7 +3835,7 @@
         "Supplier_Name": "BlogXS",
         "Category": "Fruits & Vegetables",
         "Unit_Price": "6.00",
-        "Stock_Quantity": "59",
+        "Stock_Quantity": "58",
         "Expiration_Date": "7/31/2026"
     },
     "1350": {
@@ -3945,7 +3945,7 @@
         "Supplier_Name": "Ooba",
         "Category": "Fruits & Vegetables",
         "Unit_Price": "53.82",
-        "Stock_Quantity": "95",
+        "Stock_Quantity": "91",
         "Expiration_Date": "10/18/2026"
     },
     "1360": {
@@ -4242,7 +4242,7 @@
         "Supplier_Name": "Gigashots",
         "Category": "Fruits & Vegetables",
         "Unit_Price": "3.50",
-        "Stock_Quantity": "44",
+        "Stock_Quantity": "42",
         "Expiration_Date": "9/25/2026"
     },
     "1387": {
